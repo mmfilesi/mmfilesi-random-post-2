@@ -1,0 +1,52 @@
+#post_aleatorios_contenedor {
+	overflow:hidden;
+}
+
+.fila_aleatorios {
+	overflow:hidden;
+}
+
+.post_aleatorios_col_izda {
+	float:left; 
+	overflow:hidden; 
+	margin-right:0.5em;
+}
+
+.post_aleatorios_imagen{
+width:50px !important; 
+height:50px !important; 
+border-right: 1px solid #999;
+border-bottom: 1px solid #999;
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px;
+	border-radius:5px; 
+	-webkit-transition: opacity 1s ease-out; /* Chrome y Safari */
+	-o-transition: opacity  1s ease-out; /* Opera */
+	-moz-transition: opacity  1s ease-out; /* Mozilla Firefox */
+	-ms-transition: opacity  1s ease-out; /* Internet Explorer */
+	transition:opacity 1s ease-out;	
+}
+	
+.post_aleatorios_imagen:hover {
+	opacity:0.5;
+	}
+
+.post_aleatorios_titulo {
+	min-height:55px;
+	overflow:hidden;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom:0.5em;
+	}
+	
+.post_aleatorios_titulo_sin_imagenes  {
+	border-bottom: 1px dotted #ccc;
+	margin:0.5em;
+	}		
+	
+.post_aleatorios_sumario {	
+	margin-bottom:0.5em;
+	padding:0.1em 1em 1em 1em;
+	clear:both;
+	border-bottom: 1px dotted #ccc;
+	display:none;
+}
